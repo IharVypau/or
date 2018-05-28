@@ -2,9 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta name="author" content="Ihar Vypau">
+  <title>Табличная Верстка</title>
+  <style>
+    body{
+      background-color: #f1f1f1;
+    }
+
+    table {
+      width: 100%;
+      border-spacing: 100px 10px;
+    }
+
+    td {
+      background-color: white;
+      border: solid 1px grey;
+      font: bold 16px Sans-Serif;
+      line-height: 100px;
+      text-align: center;
+    }
+
+    .top > *{
+      vertical-align: top;
+    }
+
+    .bottom > *{
+      vertical-align: bottom;
+    }
+
+    .baseline > *{
+      vertical-align: baseline;
+    }
+
+    span {
+      display: inline-block;
+      margin:0;
+      font: bold 16px Sans-Serif;
+    }
+
+  </style>
 </head>
 <body>
 
+<table cellpadding="10" cellspacing="0">
+  <tr>
+    <td class="bottom"><span>FirthBlock</span></td>
+    <td align="center"><span>SecondBlock</span></td>
+    <td class="top"><span>ThirdBlock</span></td>
+  </tr>
+</table>
+<table cellpadding="10" cellspacing="0">
+  <tr>
+    <td align="left">FourthBlock</td>
+    <td align="right" width="50%">FifthBlock</td>
+  </tr>
+</table>
 </body>
 </html>
