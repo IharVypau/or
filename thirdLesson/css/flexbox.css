@@ -1,0 +1,42 @@
+
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.flex-row >div{
+  background-color: white;
+  flex-grow: 1;
+  margin: 10px 30px;
+  line-height: 100px;
+  text-align:center;
+  padding:10px;
+  border: solid 1px grey;
+}
+
+.top > *{
+  vertical-align: top;
+}
+
+.bottom > *{
+  vertical-align: bottom;
+}
+
+.baseline > *{
+  vertical-align: baseline;
+}
+
+.FRed::first-letter{
+  color: red;
+}
+
+span {
+  display: inline-block;
+  margin:0;
+  font: bold 16px Sans-Serif;
+}
+
+@media all and (max-width: 500px) {
+  .flex-row { flex-direction: column; }
+}
