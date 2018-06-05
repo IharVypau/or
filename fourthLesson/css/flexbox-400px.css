@@ -1,0 +1,59 @@
+
+.flex-box-2 {
+  flex-flow: column wrap;
+  height: 250px;
+}
+
+.flex-box-2 > div {
+  margin: 5%;
+  width: auto;
+  height: 25px;
+}
+
+.flex-box-1 {
+  justify-content: space-between;
+}
+
+.flex-box-1 > div {
+  height: 200px;
+  width: 30px;
+  margin: 5%;
+}
+
+.item3 {
+  order: 1;
+  flex: 1 1 50%;
+}
+
+.item2 {
+  order: 4;
+  flex: 1 1 100%;
+}
+
+.item1 {
+  order: 2;
+  flex: 1 1 20%;
+}
+
+.item4 {
+  order: 3;
+  flex: 1 1 100%;
+}
+
+div.item5 {
+  order: 6;
+  flex: 1 1 40%;
+}
+
+div.item6 {
+  order: 5;
+  flex: 1 1 40%;
+}
+
+.innerItem1, .innerItem4, .innerItem3, .innerItem4, .innerItem5, .innerItem6 {
+  align-self: stretch;
+}
+
+.innerItem2, .innerItem5 {
+  order: -1;
+}

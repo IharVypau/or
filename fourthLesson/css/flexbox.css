@@ -1,0 +1,82 @@
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.flex-container > div {
+  margin: 10px;
+  text-align: center;
+  border: solid 1px grey;
+
+}
+
+.flex-box-1, .flex-box-2 {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.flex-box-1 > div {
+  height: 70%;
+  width: 18%;
+  border: solid 1px grey;
+}
+
+.flex-box-2 > div {
+  margin: 2% 0;
+  height: 30%;
+  width: 20%;
+  border: solid 1px grey;
+}
+
+div.item0 {
+
+  flex: 1 1 100%;
+  height: 60px;
+}
+
+.item1 {
+  flex: 0 1 200px;
+  order: 1;
+  height: 140px;
+}
+
+.item2 {
+  flex: 1 1 calc(100% - 250px);
+  order: 2;
+}
+
+.item3 {
+  flex-basis: 200px;
+  flex-grow: 0;
+  order: 3;
+  height: 140px;
+}
+
+.item4 {
+
+  flex-grow: 2;
+  order: 4;
+}
+
+.item5 {
+  flex-grow: 1;
+  order: 5;
+}
+
+div.item6 {
+  order: 6;
+  flex: 1 1 100%;
+  height: 60px;
+}
+
+.innerItem4 {
+  align-self: flex-start;
+}
+
+.innerItem6 {
+  align-self: flex-end;
+}

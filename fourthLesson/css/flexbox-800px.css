@@ -1,0 +1,47 @@
+
+.flex-box-1 > div {
+  height: 30%;
+}
+
+.item1 {
+  order: 3;
+}
+
+.item3 {
+  order: 1;
+}
+
+.item4 {
+  flex: 1 1 calc(100% - 250px);
+}
+
+div.item5 {
+  height: 60px;
+}
+
+.flex-box-1 > div {
+  height: 25%;
+}
+
+.innerItem1 {
+  order: 3;
+}
+
+.innerItem3 {
+  order: -1;
+}
+
+.innerItem4 {
+  align-self: flex-start;
+  order: 1;
+}
+
+.innerItem5 {
+  align-self: center;
+  order: 0;
+}
+
+.innerItem6 {
+  align-self: flex-end;
+  order: -1;
+}
