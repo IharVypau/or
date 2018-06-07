@@ -1,0 +1,30 @@
+
+.box{
+  height: 10vh;
+  width: 10vh;
+  position: absolute;
+  animation: move-box 4s infinite;
+}
+
+@keyframes  move-box{
+  0%,100%{
+    left: 1vh;
+    top: 1vh;
+    background-color: red;
+  }
+  25%{
+    top:1vh;
+    left:30vh;
+    background-color: yellow;
+  }
+  50%{
+    top:30vh;
+    left:30vh;
+    background-color: blue;
+  }
+  75%{
+    left: 1vh;
+    top: 30vh;
+    background-color: green;
+  }
+}
