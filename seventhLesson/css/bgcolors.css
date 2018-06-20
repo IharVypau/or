@@ -1,6 +1,6 @@
 
-.magenta {
-  background-color: magenta;
+.mediumpurple {
+  background-color: mediumpurple;
 }
 
 .greenyellow {
@@ -22,13 +22,15 @@
 .brown {
   background-color: brown;
 }
-
+.pink{
+  background-color: deeppink;
+}
 .red {
   background-color: red;
 }
 
 .blue {
-  background-color: cornflowerblue;
+  background-color: blue;
 }
 
 .green {
@@ -49,4 +51,16 @@
 
 .lightgrey {
   background-color: #f1f1f1;
+}
+.lime{
+  background-color: lime;
+}
+.mediumslateblue{
+  background-color: mediumslateblue;
+}
+.springGreen{
+  background-color: springGreen;
+}
+.whitesmoke{
+  background-color: whitesmoke;
 }
